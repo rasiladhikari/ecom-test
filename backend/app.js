@@ -20,6 +20,6 @@ app.get('/', (req, res) =>{
 
 app.use('/api/v1/users', userRoutes);
 
-
-const PORT = process.env.PORT || 3000;
+// PORT 3000 is frontend
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, console.log("Server running in/on " + PORT));

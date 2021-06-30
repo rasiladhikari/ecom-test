@@ -17,11 +17,11 @@ const userSchema = mongoose.Schema({
         type: String,
         required: true,
     },
-  /*  isAdmin: {
+    isAdmin: {
         type: Boolean,
         required: true,
-        default: false, // when an user registers they are not an admin off the bat
-    } */
+        default: false,
+    }
 }, {timestamps: true, // know where things are created 
 })
 
